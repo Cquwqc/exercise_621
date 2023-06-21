@@ -3,12 +3,14 @@ package org.example;
 // 按两次 Shift 打开“随处搜索”对话框并输入 `show whitespaces`，
 // 然后按 Enter 键。现在，您可以在代码中看到空格字符。
 public class Main {
-    public static void main(String[] args) {
-        Rectangle r1=new Rectangle(20.0,30);
-        Rectangle r2=new Rectangle(20.0,30);
 
-        System.out.println(r1.equals(r2));
-        System.out.println(r1.compareTo(r2));
+    public static void main(String[] args) {
+        //Rectangle测试
+//        Rectangle r1=new Rectangle(20.0,30);
+//        Rectangle r2=new Rectangle(20.0,30);
+//
+//        System.out.println(r1.equals(r2));
+//        System.out.println(r1.compareTo(r2));
 
 //clone测试
 //        Person p1=new Person(3,3.14);
